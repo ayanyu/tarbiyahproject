@@ -130,7 +130,7 @@ h2 {
 	@media  screen and  (max-width: 600px) {
 
 	h1 {
-		font-size: 2rem;
+		font-size: 1.5rem;
 
 	}
 
@@ -165,7 +165,7 @@ h2 {
 	} 
 
 	h2 {
-		font-size: 1rem;
+		font-size: .5rem;
 		left: 5vh;
 		top: 2vh;
 
