@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html, 
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: top;
+  width: 100%;
+  padding: 0px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.top-half {
+	   position: relative;
+    width: 100%;
+    height:  75%;
+    background-color: #62CCAB;
+}
+
+.bottom-half {
+	position: relative;
+    height: 10%;
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 11vh;
+}
+
+.one {
+	position: relative;
+	top: 15vh;
+	left: 2vh;
+
+}
+.two {
+	right: 50vh;
+	position: relative;
+	left: 125vh;
+	bottom: 2vh;
+}
+
+.overlap {
+	position: relative;
+	top: 5vh;
+	left: 2vh;
+	border-radius: 25%;
+}
+
+.resize2 {
+	width: 350px;
+    height: auto;
+    opacity: .9;
+    border: 10px solid #ec8ab7;
+}
+
+.resize2 {
+	    width: 350px;
+    height: auto;
+}
+
+.resize3 {
+	 width: 400px;
+    height: auto;
+    position: relative;
+    top: 30vh;
+    right: 20vh;
+    z-index: 1;
+    opacity: 1;
+    border: 10px solid #ec8ab7;
+
+}
+.resize3 {
+	 width: 400px;
+    height: auto;
+}
+
+.sib-form-container {
+	position: relative;
+	bottom: 100vh;
+	left: 70vh;
+}
+
+
+h2 {
+	position: relative;
+	font-family: 'Poppins', sans-serif;
+	left: 70vh;
+	bottom: 60vh;
+	font-size: 25px;
+	font-weight: 300;
+	color: black;
+}
+.resize {
+    width: 250px;
+    height: auto;
+}
+.img{
+	position: relative;
+	bottom: 20vh;
+	left: 83vh;
+}
+
+
+/*Start media queries*/
+
+
+	@media  screen and  (max-width: 600px) {
+
+	h1 {
+		font-size: 2.5rem;
+
+	}
+
+	.two {
+		left:28vh;
+		top: 15vh;
+	}
+
+	.resize {
+		position: relative;
+		width: 140px;
+		height: auto;
+		right: 31rem;
+		top: 10rem;
+
+	}
+
+	.resize2 {
+		display: none;
+
+	}
+
+	.resize3 {
+		display: none;
+	}
+
+	.sib-form-container {
+		position: relative;
+		width: 100%;
+		left: .5rem;
+		top: 5rem;
+	} 
+
+	h2 {
+		font-size: 1.5rem;
+		left: 5vh;
+		top: 2vh;
+
+	}
+	
+	}
+
+/*End media queries*/
+
+
+
