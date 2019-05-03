@@ -134,11 +134,11 @@ h2 {
 	}
 
 	.one {
-		left: 60vh;
+		left: 75vh;
 	}
 
 	.two {
-		left:60vh;
+		left:75vh;
 		top: 20vh;
 	}
 
@@ -181,15 +181,15 @@ h2 {
 
 	@media  screen and  (max-width: 600px) {
 		h1 {
-			font-size: 1.2rem;
-		}
+			font-size: 1.5rem;
+			}
 	.one {
 		left: 38vh;
 	}
 
 	.two {
 		left:38vh;
-		top: 25vh;
+		top: 20vh;
 	}
 
 
@@ -229,6 +229,10 @@ h2 {
 	}
 
 /*End media queries*/
+
+
+
+
 
 
 
