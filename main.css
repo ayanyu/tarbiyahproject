@@ -130,15 +130,15 @@ h2 {
 @media screen and (max-width: 760px) {
 	
 	h1 {
-		font-size: 2rem;
+		font-size: 2.5rem;
 	}
 
 	.one {
-		bottom: 90px;
+		top: 19vh;
 	}
 
 	.two {
-		left: 75vh;
+		left: 90vh;
 		top: 8vh;
 	}
 
@@ -146,7 +146,7 @@ h2 {
 		position: relative;
 		width: 180px;
 		height: auto;
-		right: 40vh;
+		right: 28vh;
 		top: 6rem;
 	}
 
@@ -228,3 +228,6 @@ h2 {
 	}
 
 /*End media queries*/
+
+
+
