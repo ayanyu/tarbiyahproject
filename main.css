@@ -124,16 +124,30 @@ h2 {
 }
 
 
+
 /*Start media queries*/
 
 @media screen and (max-width: 760px) {
 	
 	h1 {
-		font-size: 1.7rem;
+		font-size: 2rem;
 	}
 
-	.img {
+	.one {
+		bottom: 90px;
+	}
 
+	.two {
+		left: 75vh;
+		top: 8vh;
+	}
+
+	.resize {
+		position: relative;
+		width: 180px;
+		height: auto;
+		right: 40vh;
+		top: 6rem;
 	}
 
 	.resize2 {
@@ -214,5 +228,3 @@ h2 {
 	}
 
 /*End media queries*/
-
-
