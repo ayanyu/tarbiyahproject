@@ -130,24 +130,25 @@ h2 {
 @media screen and (max-width: 760px) {
 	
 	h1 {
-		font-size: 1rem;
+		font-size: 2rem;
 	}
 
 	.one {
-		top: 23vh;
+		top: 22vh;
+		left: 8vh;
 	}
 
 	.two {
-		left: 98vh;
-		top: 15vh;
+		left: 80vh;
+		top: 14vh;
 	}
 
 	.resize {
 		position: relative;
-		width: 200px;
+		width: 170px;
 		height: auto;
-		right: 30vh;
-		top: 5rem;
+		right: 40vh;
+		top: 10rem;
 	}
 
 	.resize2 {
@@ -183,11 +184,11 @@ h2 {
 			font-size: 1rem;
 		}
 	.one {
-		left: 32vh;
+		left: 38vh;
 	}
 
 	.two {
-		left:32vh;
+		left:38vh;
 		top: 25vh;
 	}
 
@@ -195,10 +196,10 @@ h2 {
 
 	.resize {
 		position: relative;
-		width: 140px;
+		width: 120px;
 		height: auto;
 		right: 83vh;
-		top: 10rem;
+		top: 15rem;
 
 	}
 
@@ -219,7 +220,7 @@ h2 {
 	} 
 
 	h2 {
-		font-size: 1.4rem;
+		font-size: 1rem;
 		left: 10vh;
 		top: 2vh;
 
@@ -228,11 +229,6 @@ h2 {
 	}
 
 /*End media queries*/
-
-
-
-
-
 
 
 
