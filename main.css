@@ -140,15 +140,15 @@ h2 {
 
 	.two {
 		left: 80vh;
-		top: 14vh;
+		top: 8vh;
 	}
 
 	.resize {
 		position: relative;
 		width: 170px;
 		height: auto;
-		right: 40vh;
-		top: 10rem;
+		right: 35vh;
+		top: 7rem;
 	}
 
 	.resize2 {
@@ -178,10 +178,21 @@ h2 {
 
 }
 
+/*Start animations*/
+@keyframes pulse {
+	0% {box-shadow: 0 0 0 0 rgba(253,87,191,0.99);
+	}
+	70%{box-shadow: 0 0 0 0 rgba(253,87,191,0);
+	}
+	100%{box-shadow: 0 0 0 0 rgba(253,87,191,0);
+	}
+}
+/*End animations*/
+
 
 	@media  screen and  (max-width: 600px) {
 		h1 {
-			font-size: 1rem;
+			font-size: 1.2rem;
 		}
 	.one {
 		left: 38vh;
@@ -199,7 +210,7 @@ h2 {
 		width: 120px;
 		height: auto;
 		right: 83vh;
-		top: 15rem;
+		top: 12rem;
 
 	}
 
@@ -229,6 +240,9 @@ h2 {
 	}
 
 /*End media queries*/
+
+
+
 
 
 
