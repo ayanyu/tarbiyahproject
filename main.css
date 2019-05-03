@@ -138,16 +138,16 @@ h2 {
 	}
 
 	.two {
-		left: 93vh;
+		left: 90vh;
 		top: 15vh;
 	}
 
 	.resize {
 		position: relative;
-		width: 140px;
+		width: 200px;
 		height: auto;
-		right: 28vh;
-		top: 10rem;
+		right: 40vh;
+		top: 5rem;
 	}
 
 	.resize2 {
@@ -183,12 +183,12 @@ h2 {
 			font-size: 2rem;
 		}
 	.one {
-		left: 22vh;
+		left: 32vh;
 	}
 
 	.two {
-		left:22vh;
-		top: 15vh;
+		left:32vh;
+		top: 25vh;
 	}
 
 
@@ -219,7 +219,7 @@ h2 {
 	} 
 
 	h2 {
-		font-size: 1rem;
+		font-size: 1.4rem;
 		left: 10vh;
 		top: 2vh;
 
@@ -228,6 +228,7 @@ h2 {
 	}
 
 /*End media queries*/
+
 
 
 
