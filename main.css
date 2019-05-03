@@ -123,16 +123,7 @@ h2 {
 	left: 87vh;
 }
 
-/*Start animations*/
-@keyframes pulse {
-	0% {box-shadow: 0 0 0 0 rgba(253,87,191,0.99);
-	}
-	70%{box-shadow: 0 0 0 0 rgba(253,87,191,0);
-	}
-	100%{box-shadow: 0 0 0 0 rgba(253,87,191,0);
-	}
-}
-/*End animations*/
+
 
 /*Start media queries*/
 
@@ -143,20 +134,19 @@ h2 {
 	}
 
 	.one {
-		top: 22vh;
-		left: 8vh;
+		left: 60vh;
 	}
 
 	.two {
-		left: 80vh;
-		top: 8vh;
+		left:60vh;
+		top: 20vh;
 	}
 
 	.resize {
 		position: relative;
-		width: 170px;
+		width: 160px;
 		height: auto;
-		right: 35vh;
+		right: 70vh;
 		top: 7rem;
 	}
 
@@ -239,8 +229,6 @@ h2 {
 	}
 
 /*End media queries*/
-
-
 
 
 
