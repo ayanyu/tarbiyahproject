@@ -126,24 +126,64 @@ h2 {
 
 /*Start media queries*/
 
+@media screen and (max-width: 760px) {
+	
+	h1 {
+		font-size: 1.7rem;
+	}
+
+	.img {
+
+	}
+
+	.resize2 {
+		display: none;
+
+	}
+
+	.resize3 {
+		display: none;
+	}
+	.sib-form-container {
+		position: relative;
+		width: 100%;
+		left: .5rem;
+		top: 5rem;
+	} 
+
+
+	h2 {
+		font-size: 2.5rem;
+		left: 10vh;
+		top: 2vh;
+
+	}
+
+
+
+}
+
 
 	@media  screen and  (max-width: 600px) {
-
-	h1 {
-		font-size: 1.8rem;
-
+		h1 {
+			font-size: 2rem;
+		}
+	.one {
+		left: 22vh;
 	}
 
 	.two {
-		left:28vh;
+		left:22vh;
 		top: 15vh;
 	}
+
+
 
 	.resize {
 		position: relative;
 		width: 140px;
 		height: auto;
-		right: 31rem;
+		right: 83vh;
 		top: 10rem;
 
 	}
@@ -165,8 +205,8 @@ h2 {
 	} 
 
 	h2 {
-		font-size: 1.2rem;
-		left: 5vh;
+		font-size: 1rem;
+		left: 10vh;
 		top: 2vh;
 
 	}
@@ -174,6 +214,5 @@ h2 {
 	}
 
 /*End media queries*/
-
 
 
