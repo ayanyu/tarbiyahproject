@@ -58,7 +58,7 @@ h1 {
 .two {
 	right: 50vh;
 	position: relative;
-	left: 133vh;
+	left: 125vh;
 	bottom: 2vh;
 }
 
@@ -97,9 +97,9 @@ h1 {
     height: auto;
 }
 
-.sib-form-container {
-	position: relative;
-	bottom: 100vh;
+.sib-container.rounded.ui-sortable{
+position: relative;
+	top: 10vh;
 	left: 70vh;
 }
 
@@ -158,11 +158,11 @@ h2 {
 	.resize3 {
 		display: none;
 	}
-	.sib-form-container {
+	.sib-container.rounded.ui-sortable {
 		position: relative;
 		width: 100%;
 		left: .5rem;
-		top: 5rem;
+		top: 25rem;
 	} 
 
 
@@ -212,17 +212,17 @@ h2 {
 		display: none;
 	}
 
-	.sib-form-container {
+	.sib-container.rounded.ui-sortable {
 		position: relative;
 		width: 100%;
 		left: .5rem;
-		top: 5rem;
+		top: 10rem;
 	} 
 
 	h2 {
 		font-size: 1rem;
 		left: 10vh;
-		top: 2vh;
+		top: .1vh;
 
 	}
 	
